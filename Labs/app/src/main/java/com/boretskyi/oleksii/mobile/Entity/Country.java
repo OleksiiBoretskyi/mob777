@@ -151,20 +151,9 @@ public class Country {
         this.currencySymbol = currencySymbol;
     }
 
-    public String getFlag() {
-        return flag;
-    }
-
-    public void setFlag(String flag) {
-        this.flag = flag;
-    }
-
     public String getFlagPng() {
         return flagPng;
     }
 
-    public void setFlagPng(String flagPng) {
-        this.flagPng = flagPng;
-    }
 
 }
