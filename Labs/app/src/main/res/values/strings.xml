@@ -1,12 +1,3 @@
 <resources>
     <string name="app_name">Mobile</string>
-    <string name="input_name">Enter your name</string>
-    <string name="say_hello">Say hello</string>
-    <string name="input_your_name">Введіть імя</string>
-    <string name="input_your_surname">Введіть прізвище</string>
-    <string name="email">Email</string>
-    <string name="phone">Телефон</string>
-    <string name="password">Пароль</string>
-    <string name="password_confirmation">Підтвердження паролю</string>
-    <string name="show_users">Показати користувача</string>
 </resources>

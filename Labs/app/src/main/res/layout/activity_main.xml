@@ -1,93 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/et_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/input_your_name"
-            android:inputType="textAutoComplete"
-            android:maxLines="1"
-            android:paddingStart="15dp"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/et_last_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/input_your_surname"
-            android:inputType="textAutoComplete"
-            android:maxLines="1"
-            android:paddingStart="15dp"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/et_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/email"
-            android:inputType="textAutoComplete"
-            android:maxLines="1"
-            android:paddingLeft="15dp"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/et_phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/phone"
-            android:inputType="textAutoComplete"
-            android:maxLines="1"
-            android:paddingLeft="15dp"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/et_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/password"
-            android:inputType="textPassword"
-            android:maxLines="1"
-            android:paddingLeft="15dp"
-            android:singleLine="true" />
-
-        <EditText
-            android:id="@+id/et_password_confr"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:hint="@string/password_confirmation"
-            android:inputType="textPassword"
-            android:maxLines="1"
-            android:paddingLeft="15dp"
-            android:singleLine="true" />
-
-        <Button
-            android:id="@+id/btn_submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Зберегти" />
-        <Button
-            android:id="@+id/btn_change_act"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Перейти до іншої сторінки" />
-    </LinearLayout>
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
